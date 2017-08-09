@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+C:\Users\Dobroto\Documents\TALENT BOOST\Final Project\.metadata\.plugins\org.eclipse.jdt.core
+529385838.index
+366956345.index
