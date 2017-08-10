@@ -1,0 +1,13 @@
+package org.talentboost.assembly.factory;
+
+public final class AssemblyMain {
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("Please put the commands files in your home directory.");
+		
+
+	}
+
+}

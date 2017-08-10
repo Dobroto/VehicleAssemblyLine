@@ -1,0 +1,11 @@
+package org.talentboost.assembly.validators;
+
+public class ModelValidator implements IValidator{
+
+	@Override
+	public void Validate(String args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

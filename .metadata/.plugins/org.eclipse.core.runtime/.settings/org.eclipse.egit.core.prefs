@@ -1,3 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\Dobroto\\Documents\\TALENT BOOST\\MyGit\\tb-2017\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\Users\\Dobroto\\Documents\\TALENT BOOST\\MyGit\\tb-2017\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\Dobroto\\Documents\\TALENT BOOST\\MyGit\\tb-2017\\.git;C\:\\Users\\Dobroto\\Documents\\TALENT BOOST\\ClonedFinalProject\\TalentBoost2016FinalProject\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\Dobroto\\Documents\\TALENT BOOST\\MyGit\\tb-2017\\.git;C\:\\Users\\Dobroto\\Documents\\TALENT BOOST\\ClonedFinalProject\\TalentBoost2016FinalProject\\.git;
+core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

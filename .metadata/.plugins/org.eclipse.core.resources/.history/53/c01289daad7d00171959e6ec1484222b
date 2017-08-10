@@ -1,0 +1,36 @@
+package org.talentboost.assembly.factory;
+
+import java.util.Scanner;
+
+import org.talentboost.assembly.validators.CountryValidator;
+
+public class AssemblyMain {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Please enter the name of the factory's country");
+		Scanner sc = new Scanner(System.in);
+		CountryValidator cv = new CountryValidator();
+		
+		try {
+    		while(sc.hasNextLine()) {
+    			if (!cv.validate(sc.nextLine().trim())) {
+    				System.out.println("Please enter valid country name.");
+    			}
+    		}
+    	}
+    	finally {
+    		sc.close();
+    	}
+		
+		
+		
+		
+		
+		Factory factory = new Factory();
+		System.out.println("Please put the commands files in your home directory.");
+		
+
+	}
+
+}

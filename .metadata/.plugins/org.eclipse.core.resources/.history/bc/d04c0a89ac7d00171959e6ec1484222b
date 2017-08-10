@@ -1,0 +1,11 @@
+package org.talentboost.assembly.validators;
+
+public class VINValidator implements IValidator{
+
+	@Override
+	public void validate(String args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
