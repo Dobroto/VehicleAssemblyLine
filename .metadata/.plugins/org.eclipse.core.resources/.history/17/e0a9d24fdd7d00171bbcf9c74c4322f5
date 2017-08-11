@@ -1,0 +1,18 @@
+package org.talentboost.assembly.validators;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Locale;
+import java.util.Set;
+
+public class CountryValidator implements IValidator {
+
+	private static final Set<String> ISO_COUNTRIES = new HashSet<String>(Arrays.asList(Locale.getISOCountries()));
+
+	@Override
+	public boolean validate(String args) {
+		String result = args;
+		return ISO_COUNTRIES.contains(result);
+	}
+
+}

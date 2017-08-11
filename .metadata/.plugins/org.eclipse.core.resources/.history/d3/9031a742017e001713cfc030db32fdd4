@@ -1,0 +1,13 @@
+package org.talentboost.assembly.factory;
+
+public final class VINCreator {
+	String countryCode;
+	String factoryNum;
+	
+	public VINCreator (String validCountryCode, String validFactoryNum) {
+		this.countryCode = validCountryCode;
+		this.factoryNum = validFactoryNum;
+	}
+	
+	
+}

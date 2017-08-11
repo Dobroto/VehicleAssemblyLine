@@ -1,0 +1,28 @@
+package org.talentboost.assembly.validators;
+
+/*
+ * The validate method accepts the number of the factory in
+ * the given country. The input string is checked against
+ * the predetermined limitations (it should be between 0 and 9).
+ * If the user enters a string which doesn't correspond to a number,
+ * a NumberFormatException is caught.
+ * 
+ * @param	factoryNum	the string entered by the user as the factory number
+ * @return	boolean		does it satisfy the limitations
+ */
+public class FactoryNumberValidator implements IValidator {
+
+	@Override
+	public boolean validate(String factoryNum) {
+		try {
+			if ((Integer.parseInt(factoryNum) >= 0) && (Integer.parseInt(factoryNum) <= 9)) {
+				return true;
+			}
+		} catch (NumberFormatException ex) {
+			System.out.println("Please enter a number from 0 to 9.");
+		}
+
+		return false;
+	}
+
+}

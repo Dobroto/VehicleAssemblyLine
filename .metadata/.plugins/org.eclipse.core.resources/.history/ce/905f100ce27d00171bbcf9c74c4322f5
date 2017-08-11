@@ -1,0 +1,18 @@
+package org.talentboost.assembly.validators.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.talentboost.assembly.validators.CountryValidator;
+
+public class CountryValidatorShould {
+
+	
+	@Test
+	public void validate_validCode_returnTrue() {
+		CountryValidator cv = new CountryValidator();
+		assertTrue(cv.validate("BG"));
+	}
+
+}

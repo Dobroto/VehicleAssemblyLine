@@ -1,0 +1,18 @@
+package org.talentboost.assembly.validators;
+
+public class FactoryNumberValidator implements IValidator {
+
+	@Override
+	public boolean validate(String args) {
+		try {
+			if ((Integer.parseInt(args) >= 0) && (Integer.parseInt(args) <= 9)) {
+				return true;
+			}
+		} catch (NumberFormatException ex) {
+			System.out.println("Please enter a number from 0 to 9.");
+		}
+
+		return false;
+	}
+
+}

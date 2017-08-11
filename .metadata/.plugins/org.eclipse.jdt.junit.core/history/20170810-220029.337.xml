@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CountryValidatorShould" project="VehicleAssemblyLine" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="org.talentboost.assembly.validators.tests.CountryValidatorShould" time="0.031">
+    <testcase name="validate_unvalidCodeUpperCase_returnFalse" classname="org.talentboost.assembly.validators.tests.CountryValidatorShould" time="0.031"/>
+    <testcase name="validate_validCodeUpperCase_returnTrue" classname="org.talentboost.assembly.validators.tests.CountryValidatorShould" time="0.0"/>
+    <testcase name="validate_validCodeLowerCase_returnTrue" classname="org.talentboost.assembly.validators.tests.CountryValidatorShould" time="0.0"/>
+    <testcase name="validate_validCodeLowerCase_returnFalse" classname="org.talentboost.assembly.validators.tests.CountryValidatorShould" time="0.0"/>
+  </testsuite>
+</testrun>

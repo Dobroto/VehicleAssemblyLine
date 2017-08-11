@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.vmware.vehicles.IVehicle"/>
+<fullyQualifiedTypeName name="javax.swing.Icon"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.commands.ICommand"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.commands.CreateVehicleCommand"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.commands.DisassembleCommand"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.commands.FindCommand"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.commands.PrintCommand"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.commands.UpdateCommand"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.vehicles.IVehicle"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.parser.VehicleParser"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.vehicle_components.transmission.ITransmission"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.parser.IPrintParser"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.validators.IValidator"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.factory.Factory"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.talentboost.assembly.validators.CountryValidator"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>
