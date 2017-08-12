@@ -1,0 +1,15 @@
+package org.talentboost.assembly.vehicles;
+
+import java.util.Set;
+
+import org.talentboost.assembly.factory.VehicleBrochure;
+
+public class SUV implements IVehicle{
+
+	@Override
+	public Set<String> getListOfModels() {
+		return VehicleBrochure.SUVModels;
+	}
+
+	
+}

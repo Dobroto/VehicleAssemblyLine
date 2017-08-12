@@ -1,41 +1,29 @@
 package org.talentboost.assembly.vehicle_components.engine;
 
-public class ElectricEngine implements IEngine{
+import org.talentboost.assembly.factory.Constants;
 
-	@Override
-	public int getEngineDisplacementInCC() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+public final class ElectricEngine implements IEngine{
+
+	private final String emissionStandard = "euro6";
 
 	@Override
 	public double getPowerInKW() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public boolean hasTurbo() {
-		// TODO Auto-generated method stub
-		return false;
+		return Constants.electricEnginePowerInKW;
 	}
 
 	@Override
 	public String getEmissionStandard() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.emissionStandard;
 	}
 
 	@Override
-	public String getTransmissionType() {
-		// TODO Auto-generated method stub
-		return null;
+	public double getPowerInHP() {
+		return Constants.electricEnginePowerInKW * Constants.kWToHPConversionValue;
 	}
 
 	@Override
-	public int getGearsNumber() {
-		// TODO Auto-generated method stub
-		return 0;
+	public char getEngineSymbol() {
+		return Constants.electricEngineSymbol;
 	}
 
 }

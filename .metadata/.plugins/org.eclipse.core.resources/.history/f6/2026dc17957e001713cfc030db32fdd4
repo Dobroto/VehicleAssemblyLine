@@ -1,0 +1,5 @@
+package org.talentboost.assembly.enums;
+
+public enum Models {
+
+}

@@ -1,0 +1,9 @@
+package org.talentboost.assembly.vehicle_components.engine;
+
+public class ElectricEngine{
+
+	public ElectricEngine() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

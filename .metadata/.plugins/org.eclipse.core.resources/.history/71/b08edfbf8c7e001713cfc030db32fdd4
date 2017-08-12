@@ -1,0 +1,16 @@
+package org.talentboost.assembly.vehicle_components.engine;
+
+public class ElectricEngine implements IEngine{
+
+
+	@Override
+	public double getPowerInKW() {
+		return 535;
+	}
+
+	@Override
+	public String getEmissionStandard() {
+		return "euro6";
+	}
+
+}

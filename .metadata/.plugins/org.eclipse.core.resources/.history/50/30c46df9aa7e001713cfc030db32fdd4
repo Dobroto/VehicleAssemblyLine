@@ -1,0 +1,5 @@
+package org.talentboost.assembly.parsers.transmission_parsers;
+
+public class AutomaticTransmissionParser {
+
+}

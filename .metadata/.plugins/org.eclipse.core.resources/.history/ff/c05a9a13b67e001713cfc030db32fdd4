@@ -1,0 +1,20 @@
+package org.talentboost.assembly.vehicles;
+
+import java.util.Set;
+
+import org.talentboost.assembly.factory.VehicleBrochure;
+
+public class Car implements IVehicle{
+
+	private String vehicleTypeRepresentation = "car";
+	@Override
+	public Set<String> getListOfModels() {
+		return VehicleBrochure.carModels;
+	}
+
+	@Override
+	public String getVehicleTypeRepresentation() {
+		return vehicleTypeRepresentation;
+	}
+
+}

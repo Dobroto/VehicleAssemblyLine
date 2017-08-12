@@ -1,0 +1,18 @@
+package org.talentboost.assembly.validators;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.talentboost.assembly.parsers.vehicle_parsers.VehicleParser;
+
+public class VehicleTypeValidator implements IValidator{
+
+	private Map<String, VehicleParser> vehicleTypeParserMap;
+	
+	@Override
+	public boolean validate(String args) {
+		vehicleTypeParserMap = new HashMap<String, VehicleParser>();
+		return false;
+	}
+
+}

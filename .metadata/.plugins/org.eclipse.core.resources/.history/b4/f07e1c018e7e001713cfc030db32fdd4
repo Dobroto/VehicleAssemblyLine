@@ -1,0 +1,5 @@
+package org.talentboost.assembly.vehicle_components.transmission;
+
+public interface ITransmission {
+
+}

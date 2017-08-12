@@ -1,0 +1,13 @@
+package org.talentboost.assembly.factory;
+
+public final class Constants {
+	public static final double kWToHPConversionValue = 1.359;
+	public static final double powerIncreaseWithTurbo = 1.3;
+	public static final double electricEnginePowerInKW = 535;
+	public static final String defaultBodyConfiguration = "sedan";
+	public static final char petrolEngineSymbol = 'B';
+	public static final char dieselEngineSymbol = 'D';
+	public static final char electricEngineSymbol = 'E';
+	public static final String manualTransmissionSymbol = "Manual";
+	public static final String automaticTransmissionSymbol = "Auto";
+}

@@ -1,0 +1,36 @@
+package org.talentboost.assembly.validators;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.talentboost.assembly.factory.Constants;
+import org.talentboost.assembly.parsers.vehicle_parsers.CarParser;
+import org.talentboost.assembly.parsers.vehicle_parsers.SUVParser;
+import org.talentboost.assembly.parsers.vehicle_parsers.VehicleParser;
+import org.talentboost.assembly.vehicles.IVehicleType;
+
+public class VehicleTypeValidator implements IValidator{
+
+	private Map<String, VehicleParser> vehicleTypeParserMap;
+	
+	public VehicleTypeValidator() {
+		vehicleTypeParserMap = new HashMap<String, VehicleParser>();
+		vehicleTypeParserMap.put(Constants.vehicleTypeRepresentationCar, new CarParser());
+		vehicleTypeParserMap.put(Constants.vehicleTypeRepresentationSUV, new SUVParser());
+	}
+	
+	@Override
+	public boolean validate(String args) {
+		try {
+			vehicleTypeParserMap.get(args);
+			
+		}catch(IllegalArgumentException ex)
+		{
+			System.out.println("Please enter valid vehicle type.");
+		}
+		
+		
+		return false;
+	}
+
+}

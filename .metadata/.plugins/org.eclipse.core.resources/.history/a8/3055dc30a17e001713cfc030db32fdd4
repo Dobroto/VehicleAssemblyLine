@@ -1,0 +1,57 @@
+package org.talentboost.assembly.vehicle_components.engine;
+
+import org.talentboost.assembly.factory.Constants;
+
+public final class PetrolEngine implements IEngine{
+
+	String engineType;
+	private int engineDisplacementCC;
+	private int powerInKW;
+	private boolean hasTurbo;
+	private String emissionStandard;
+	
+	
+	public PetrolEngine(String engineType, int engineDisplacementCC, int powerInKW, 
+			boolean hasTurbo, String emissionStandard) {
+		this.engineType = engineType;
+		this.engineDisplacementCC = engineDisplacementCC;
+		this.powerInKW = powerInKW;
+		this.hasTurbo = hasTurbo;
+		this.emissionStandard = emissionStandard;
+	}
+	
+	public int getEngineDisplacementInCC() {
+		return this.engineDisplacementCC;
+	}
+
+	@Override
+	public double getPowerInKW() {
+		return this.powerInKW;
+	}
+	
+	@Override
+	public double getPowerInHP() {
+		return this.powerInKW * Constants.kWToHPConversionValue;
+	}
+
+	
+	public boolean hasTurbo() {
+		return this.hasTurbo;
+	}
+	
+	public double getPowerWithTurboInHP() {
+		return getPowerInHP() * Constants.powerIncreaseWithTurbo;
+	}
+
+	@Override
+	public String getEmissionStandard() {
+		return this.emissionStandard;
+	}
+
+	public String getEngineType() {
+		return this.engineType;
+	}
+
+	
+
+}

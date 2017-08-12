@@ -1,0 +1,17 @@
+package org.talentboost.assembly.vehicle_components.transmission;
+
+public class AutomaticTransmission implements ITransmission{
+
+	@Override
+	public String getTransmissionSymbol() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int getNumberOfGears() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

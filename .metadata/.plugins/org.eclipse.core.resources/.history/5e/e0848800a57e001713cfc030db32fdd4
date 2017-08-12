@@ -1,0 +1,7 @@
+package org.talentboost.assembly.parsers;
+
+import org.talentboost.assembly.vehicles.IVehicle;
+
+public abstract class VehicleParser {
+	public abstract IVehicle parse();
+}

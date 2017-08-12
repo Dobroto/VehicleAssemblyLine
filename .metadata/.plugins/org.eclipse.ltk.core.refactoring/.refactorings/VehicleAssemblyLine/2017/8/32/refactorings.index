@@ -9,3 +9,21 @@
 1502350433283	Rename type 'Memory'
 1502390930350	Rename local variable 'args'
 1502395739357	Move compilation unit
+1502451238161	Delete element
+1502453402727	Delete elements
+1502453457159	Rename type 'ManualTransmission'
+1502456596051	Delete element
+1502459157939	Rename type 'WarehouseStorage'
+1502461803528	Rename package 'org.talentboost.assembly.parser'
+1502461871213	Delete element
+1502462106907	Delete element
+1502462753756	Delete element
+1502462884085	Delete element
+1502463264643	Rename package 'org.talentboost.assembly.parsers.VehicleParsers'
+1502463280205	Move compilation units
+1502464202594	Delete element
+1502464258040	Move compilation units
+1502464347629	Move compilation units
+1502464531240	Rename type 'Transmission'
+1502472021106	Rename type 'IVehicle'
+1502472385912	Rename type 'VehicleTypeValidatorTest'

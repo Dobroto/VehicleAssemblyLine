@@ -1,0 +1,13 @@
+package org.talentboost.assembly.validators;
+
+public class VehicleTypeValidator implements IValidator{
+
+	private Map<String, VehicleParser> vehicleTypeParserMap;
+	
+	@Override
+	public boolean validate(String args) {
+		vehicleTypeParserMap
+		return false;
+	}
+
+}

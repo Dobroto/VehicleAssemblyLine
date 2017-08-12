@@ -1,0 +1,6 @@
+package org.talentboost.assembly.factory;
+
+public final class Constants {
+	public static final double kWToHPConversionValue = 1.359;
+	public static final double powerIncreaseWithTurbo = 1.3;
+}

@@ -1,41 +1,56 @@
 package org.talentboost.assembly.vehicle_components.engine;
 
-public class DieselEngine implements IEngine{
+import org.talentboost.assembly.factory.Constants;
 
-	@Override
+public class DieselEngine implements IEngine{
+	
+	private int engineDisplacementCC;
+	private int powerInKW;
+	private boolean hasTurbo;
+	private String emissionStandard;
+	
+	
+	public DieselEngine(int engineDisplacementCC, int powerInKW, 
+			boolean hasTurbo, String emissionStandard) {
+		
+		this.engineDisplacementCC = engineDisplacementCC;
+		this.powerInKW = powerInKW;
+		this.hasTurbo = hasTurbo;
+		this.emissionStandard = emissionStandard;
+	}
+
 	public int getEngineDisplacementInCC() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.engineDisplacementCC;
 	}
 
 	@Override
 	public double getPowerInKW() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.powerInKW;
+	}
+	
+	@Override
+	public double getPowerInHP() {
+		return this.powerInKW * Constants.kWToHPConversionValue;
 	}
 
-	@Override
+	
 	public boolean hasTurbo() {
-		// TODO Auto-generated method stub
-		return false;
+		return this.hasTurbo;
+	}
+	
+	public double getPowerWithTurboInHP() {
+		return getPowerInHP() * Constants.powerIncreaseWithTurbo;
 	}
 
 	@Override
 	public String getEmissionStandard() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.emissionStandard;
 	}
 
 	@Override
-	public String getTransmissionType() {
-		// TODO Auto-generated method stub
-		return null;
+	public char getEngineSymbol() {
+		return Constants.dieselEngineSymbol;
 	}
 
-	@Override
-	public int getGearsNumber() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 
 }

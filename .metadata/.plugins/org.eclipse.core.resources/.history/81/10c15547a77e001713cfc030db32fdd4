@@ -1,0 +1,13 @@
+package org.talentboost.assembly.parsers;
+
+import org.talentboost.assembly.vehicle_components.engine.ElectricEngine;
+import org.talentboost.assembly.vehicle_components.engine.IEngine;
+
+public class ElectricEngineParser extends EngineParser{
+
+	@Override
+	public IEngine parse(int engineDisplacementCC, int powerInKW, boolean hasTurbo, String emissionStandard) {
+		return new ElectricEngine();
+	}
+
+}

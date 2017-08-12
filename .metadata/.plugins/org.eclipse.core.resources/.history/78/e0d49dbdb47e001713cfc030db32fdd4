@@ -1,0 +1,13 @@
+package org.talentboost.assembly.parsers.vehicle_parsers;
+
+import org.talentboost.assembly.vehicles.IVehicle;
+
+public class SUVParser extends VehicleParser{
+
+	@Override
+	public IVehicle parse() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

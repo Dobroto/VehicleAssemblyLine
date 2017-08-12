@@ -1,0 +1,24 @@
+package org.talentboost.assembly.vehicle_components.engine;
+
+public final class ElectricEngine implements IEngine{
+
+	private final double powerInKW = 535;
+	private final double kWToHPConversionValue = 1.359;
+	private final String emissionStandard = "euro6";
+
+	@Override
+	public double getPowerInKW() {
+		return powerInKW;
+	}
+
+	@Override
+	public String getEmissionStandard() {
+		return this.emissionStandard;
+	}
+
+	@Override
+	public double getPowerInHP() {
+		return powerInKW * kWToHPConversionValue;
+	}
+
+}

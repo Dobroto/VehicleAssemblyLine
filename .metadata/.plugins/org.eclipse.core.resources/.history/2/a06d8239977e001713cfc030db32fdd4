@@ -1,0 +1,10 @@
+package org.talentboost.assembly.factory;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+public class WarehouseStorage {
+	public final Set<String> vehicleModels = 
+			new HashSet<>(Arrays.asList("A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8"));
+}

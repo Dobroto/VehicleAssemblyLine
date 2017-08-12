@@ -1,0 +1,21 @@
+package org.talentboost.assembly.vehicle_components.engine;
+
+public class ElectricEngine implements IEngine{
+
+	public ElectricEngine(){
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double getPowerInKW() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String getEmissionStandard() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

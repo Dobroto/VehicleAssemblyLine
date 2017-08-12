@@ -1,0 +1,5 @@
+package org.talentboost.assembly.parsers;
+
+public abstract class PrintParser {
+	public abstract parse();
+}

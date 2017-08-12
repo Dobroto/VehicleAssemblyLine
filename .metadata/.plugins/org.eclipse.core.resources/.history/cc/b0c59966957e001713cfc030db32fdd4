@@ -1,0 +1,5 @@
+package org.talentboost.assembly.enums;
+
+public enum EngineDisplacement {
+	1000, 2000, 3000, 4000, 5000, 6000, 8000;
+}

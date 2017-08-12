@@ -15,11 +15,11 @@ import org.talentboost.assembly.commands.FindCommand;
 import org.talentboost.assembly.commands.ICommand;
 import org.talentboost.assembly.commands.PrintCommand;
 import org.talentboost.assembly.commands.UpdateCommand;
-import org.talentboost.assembly.factory.WarehouseStorage;
+import org.talentboost.assembly.factory.VehicleBrochure;
 
 
 public class Interpreter {
-	private static WarehouseStorage memory = new WarehouseStorage();
+	private static VehicleBrochure memory = new VehicleBrochure();
 	private Map<String, ICommand> COMMAND_MAP;
     /*
      * Offering our commands to the client 
