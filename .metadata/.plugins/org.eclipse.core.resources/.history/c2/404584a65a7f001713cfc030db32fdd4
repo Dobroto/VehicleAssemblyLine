@@ -1,0 +1,20 @@
+package org.talentboost.assembly.validators;
+
+public class EngineValidator implements IValidator{
+
+	@Override
+	public boolean validate(String engineInput) {
+		
+		int indexOfEquals = engineInput.indexOf("=");
+		if ((indexOfEquals == -1) || (!engineInput.startsWith("engine="))) {
+			System.out.println("Please enter a model in the agreed manner.");
+			return false;
+		}
+		indexOfEquals++;
+		
+		return false;
+		
+		
+	}
+
+}

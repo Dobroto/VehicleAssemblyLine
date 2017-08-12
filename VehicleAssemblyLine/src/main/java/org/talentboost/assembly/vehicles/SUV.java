@@ -17,5 +17,10 @@ public class SUV implements IVehicleType{
 		return Constants.vehicleTypeRepresentationSUV;
 	}
 
+	@Override
+	public Set<String> getAvailableVehicleModels() {
+		return VehicleBrochure.SUVModels;
+	}
+
 	
 }

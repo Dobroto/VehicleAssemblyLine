@@ -1,0 +1,22 @@
+package org.talentboost.assembly.validators;
+
+import org.talentboost.assembly.factory.Constants;
+
+public class ModelValidator implements IValidator {
+
+	@Override
+	public boolean validate(String args) {
+		try {
+			int indexOfEquals = args.indexOf("=");
+			String vehicleModel = args.substring(indexOfEquals,
+					indexOfEquals + Constants.vehicleModelRepresentationLength);
+
+		} catch (NullPointerException ex) {
+			System.out.println("Please enter valid model.");
+		}
+
+		return false;
+
+	}
+
+}

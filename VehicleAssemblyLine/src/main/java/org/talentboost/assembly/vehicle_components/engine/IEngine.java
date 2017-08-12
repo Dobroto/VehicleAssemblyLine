@@ -8,6 +8,6 @@ public interface IEngine {
 	
 	double getPowerInHP();
 	
-	char getEngineSymbol();
+	String getEngineSymbol();
 
 }

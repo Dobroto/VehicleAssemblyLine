@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="VehicleTypeValidatorShould" project="VehicleAssemblyLine" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="org.talentboost.assembly.validators.tests.VehicleTypeValidatorShould" time="0.01">
+    <testcase name="parseVehicleType_ValidCarRepresentation_SameType" classname="org.talentboost.assembly.validators.tests.VehicleTypeValidatorShould" time="0.006"/>
+    <testcase name="validate_ValidSUVRepresentationLowerCase_ReturnTrue" classname="org.talentboost.assembly.validators.tests.VehicleTypeValidatorShould" time="0.001"/>
+    <testcase name="validate_ValidCarRepresentationUpperCase_ReturnTrue" classname="org.talentboost.assembly.validators.tests.VehicleTypeValidatorShould" time="0.001"/>
+    <testcase name="parseVehicleType_ValidSUVRepresentation_SameType" classname="org.talentboost.assembly.validators.tests.VehicleTypeValidatorShould" time="0.001"/>
+    <testcase name="validate_ValidCarRepresentationLowerCase_ReturnTrue" classname="org.talentboost.assembly.validators.tests.VehicleTypeValidatorShould" time="0.0"/>
+    <testcase name="validate_InvalidCarRepresentation_ReturnFalse" classname="org.talentboost.assembly.validators.tests.VehicleTypeValidatorShould" time="0.0"/>
+    <testcase name="validate_InvalidSUVRepresentation_ReturnFalse" classname="org.talentboost.assembly.validators.tests.VehicleTypeValidatorShould" time="0.001"/>
+    <testcase name="validate_ValidSUVRepresentationUpperCase_ReturnTrue" classname="org.talentboost.assembly.validators.tests.VehicleTypeValidatorShould" time="0.0"/>
+  </testsuite>
+</testrun>

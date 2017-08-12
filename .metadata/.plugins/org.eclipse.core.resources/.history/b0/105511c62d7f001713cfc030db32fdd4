@@ -1,0 +1,37 @@
+package org.talentboost.assembly.validators;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.talentboost.assembly.factory.Constants;
+import org.talentboost.assembly.parsers.vehicle_parsers.CarParser;
+import org.talentboost.assembly.parsers.vehicle_parsers.SUVParser;
+import org.talentboost.assembly.parsers.vehicle_parsers.VehicleParser;
+
+public class ModelValidator implements IValidator{
+
+	private Map<String, VehicleParser> vehicleTypeParserMap;
+	public ModelValidator() {
+		vehicleTypeParserMap = new HashMap<String, VehicleParser>();
+		vehicleTypeParserMap.put(Constants.vehicleTypeRepresentationCar, new CarParser());
+		vehicleTypeParserMap.put(Constants.vehicleTypeRepresentationSUV, new SUVParser());
+	}
+	@Override
+	public boolean validate(String args) {
+		try {
+			int indexOfEquals = args.indexOf("=");
+			String vehicleModel = 
+					args.substring(indexOfEquals, indexOfEquals + Constants.vehicleModelRepresentationLength);
+			
+			
+		}catch(NullPointerException ex){
+			System.out.println("Please enter valid model.");
+		}
+		
+		
+		
+		return false;
+		
+	}
+
+}

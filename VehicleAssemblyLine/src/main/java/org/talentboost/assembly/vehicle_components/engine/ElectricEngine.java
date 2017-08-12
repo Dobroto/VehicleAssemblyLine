@@ -22,7 +22,7 @@ public final class ElectricEngine implements IEngine{
 	}
 
 	@Override
-	public char getEngineSymbol() {
+	public String getEngineSymbol() {
 		return Constants.electricEngineSymbol;
 	}
 

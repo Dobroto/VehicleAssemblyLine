@@ -1,0 +1,5 @@
+package org.talentboost.assembly.parsers.engine_parameters_parsers;
+
+public class HorsePowerParser {
+
+}

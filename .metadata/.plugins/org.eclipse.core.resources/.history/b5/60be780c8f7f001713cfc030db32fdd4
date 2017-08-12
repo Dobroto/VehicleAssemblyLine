@@ -1,0 +1,64 @@
+package org.talentboost.assembly.vehicle_components.engine;
+
+import java.util.Set;
+
+public class EngineSpecifications {
+	int idNumber;
+	int engineDisplacementCC;
+	double powerInKW;
+	boolean turbo;
+	Set<IEngine> engineTypes;
+	
+	public EngineSpecifications(int idNumber, int engineDisplacementCC, double powerInKW,
+			boolean turbo, Set<IEngine> engineTypes) {
+		this.idNumber = idNumber;
+		this.engineDisplacementCC = engineDisplacementCC;
+		this.powerInKW = powerInKW;
+		this.turbo = turbo;
+		this.engineTypes = engineTypes;
+	}
+
+	public int getIdNumber() {
+		return idNumber;
+	}
+
+	public void setIdNumber(int idNumber) {
+		this.idNumber = idNumber;
+	}
+
+	public int getEngineDisplacementCC() {
+		return engineDisplacementCC;
+	}
+
+	public void setEngineDisplacementCC(int engineDisplacementCC) {
+		this.engineDisplacementCC = engineDisplacementCC;
+	}
+
+	public double getPowerInKW() {
+		return powerInKW;
+	}
+
+	public void setPowerInKW(double powerInKW) {
+		this.powerInKW = powerInKW;
+	}
+
+	public boolean isTurbo() {
+		return turbo;
+	}
+
+	public void setTurbo(boolean turbo) {
+		this.turbo = turbo;
+	}
+
+	public Set<IEngine> getEngineTypes() {
+		return engineTypes;
+	}
+
+	public void setEngineTypes(Set<IEngine> engineTypes) {
+		this.engineTypes = engineTypes;
+	}
+
+	
+	
+	
+}

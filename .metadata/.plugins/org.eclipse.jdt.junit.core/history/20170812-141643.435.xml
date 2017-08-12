@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BodyConfigurationValidatorShould" project="VehicleAssemblyLine" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="org.talentboost.assembly.validators.tests.BodyConfigurationValidatorShould" time="0.0">
+    <testcase name="validate_ValidBodyConfiguration_ReturnTrue" classname="org.talentboost.assembly.validators.tests.BodyConfigurationValidatorShould" time="0.0"/>
+    <testcase name="validate_InvalidBodyConfiguration_ReturnFalse" classname="org.talentboost.assembly.validators.tests.BodyConfigurationValidatorShould" time="0.0"/>
+  </testsuite>
+</testrun>

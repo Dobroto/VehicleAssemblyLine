@@ -1,0 +1,14 @@
+package org.talentboost.assembly.validators.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class BodyConfigurationValidatorShould {
+
+	@Test
+	public void validate_ValidBodyConfiguration_ReturnTrue() {
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package org.talentboost.assembly.validators;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.talentboost.assembly.vehicle_components.engine.parameters.IEngineMainCharacteristic;
+
+public class OptionalEngineParametersValidator implements IValidator{
+
+	private Map<String, IEngineMainCharacteristic> vehicleTypeParserMap;
+	
+	public OptionalEngineParametersValidator() {
+		vehicleTypeParserMap = new HashMap<String, IEngineMainCharacteristic>();
+		
+	}
+	@Override
+	public boolean validate(String engineInput) {
+		String[] engineInputSplit = engineInput.split("-");
+		
+		
+		
+		//int indexOfOptionalParam = engineInput.indexOf("-") + 1;
+		
+		//String optionParam = engineInput.substring(indexOfOptionalParam);
+		
+		return false;
+	}
+
+}

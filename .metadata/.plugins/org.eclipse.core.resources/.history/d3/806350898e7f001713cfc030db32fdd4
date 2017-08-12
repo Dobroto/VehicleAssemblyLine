@@ -1,0 +1,15 @@
+package org.talentboost.assembly.enums;
+
+public enum PowerInKW {
+	kw55(55), kw7150(71.50)
+	
+	private double number;
+
+	private PowerInKW(double number) {
+		this.number = number;
+	}
+
+	public double getNumber() {
+		return number;
+	}
+}

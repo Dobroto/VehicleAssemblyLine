@@ -1,0 +1,22 @@
+package org.talentboost.assembly.validators;
+
+import org.talentboost.assembly.factory.VehicleBrochure;
+
+public class BodyConfigurationValidator implements IValidator {
+
+	@Override
+	public boolean validate(String args) {
+
+		int indexOfBodyConfiguration = args.indexOf("-") + 1;
+		
+		String bodyConfig = args.substring(indexOfBodyConfiguration);
+		
+		if (!VehicleBrochure.bodyConfiguration.contains(bodyConfig)) {
+			System.out.println("Please enter valid body configuration.");
+			return false;
+		}
+
+		return true;
+	}
+
+}

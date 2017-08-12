@@ -48,7 +48,7 @@ public class DieselEngine implements IEngine{
 	}
 
 	@Override
-	public char getEngineSymbol() {
+	public String getEngineSymbol() {
 		return Constants.dieselEngineSymbol;
 	}
 

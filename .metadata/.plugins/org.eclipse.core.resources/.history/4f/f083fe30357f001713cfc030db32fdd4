@@ -1,0 +1,31 @@
+package org.talentboost.assembly.validators;
+
+import org.talentboost.assembly.factory.Constants;
+import org.talentboost.assembly.vehicles.IVehicleType;
+
+public class ModelValidator{
+
+	VehicleTypeValidator vtv = new VehicleTypeValidator();
+
+	public boolean validate(String vehicleTypeInput, String vehicleModelInput) {
+		try {
+			int indexOfEquals = vehicleModelInput.indexOf("=");
+			indexOfEquals++;
+			String vehicleModel = vehicleModelInput.substring(indexOfEquals,
+					indexOfEquals + Constants.vehicleModelRepresentationLength);
+
+			IVehicleType vehicleType = vtv.parseVehicleType(vehicleTypeInput);
+			
+			if(vehicleType.getAvailableVehicleModels().contains(vehicleModel)) {
+				return true;
+			}
+			
+		} catch (NullPointerException ex) {
+			System.out.println("Please enter valid model.");
+		}
+
+		return false;
+
+	}
+
+}

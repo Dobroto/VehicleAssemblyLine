@@ -5,12 +5,14 @@ public final class Constants {
 	public static final double powerIncreaseWithTurbo = 1.3;
 	public static final double electricEnginePowerInKW = 535;
 	public static final String defaultBodyConfiguration = "sedan";
-	public static final char petrolEngineSymbol = 'B';
-	public static final char dieselEngineSymbol = 'D';
-	public static final char electricEngineSymbol = 'E';
+	public static final String petrolEngineSymbol = "b";
+	public static final String dieselEngineSymbol = "d";
+	public static final String electricEngineSymbol = "e";
 	public static final String manualTransmissionSymbol = "Manual";
 	public static final String automaticTransmissionSymbol = "Auto";
 	public static final String vehicleTypeRepresentationSUV = "suv";
 	public static final String vehicleTypeRepresentationCar = "car";
+	public static final int vehicleModelRepresentationLength = 2;
+	public static final int engineRepresentationLength = 1;
 
 }

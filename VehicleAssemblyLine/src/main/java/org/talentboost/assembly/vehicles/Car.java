@@ -17,4 +17,9 @@ public class Car implements IVehicleType {
 		return Constants.vehicleTypeRepresentationCar;
 	}
 
+	@Override
+	public Set<String> getAvailableVehicleModels() {
+		return VehicleBrochure.carModels;
+	}
+
 }

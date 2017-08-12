@@ -1,0 +1,33 @@
+package org.talentboost.assembly.validators;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.talentboost.assembly.parsers.engine_parameters_parsers.EngineParametersParser;
+import org.talentboost.assembly.parsers.engine_parameters_parsers.HorsePowerParser;
+import org.talentboost.assembly.parsers.engine_parameters_parsers.LiterParser;
+
+public class OptionalEngineParametersValidator implements IValidator{
+
+	private Map<String, EngineParametersParser> engineParametersParserMap;
+	
+	public OptionalEngineParametersValidator() {
+		engineParametersParserMap = new HashMap<String, EngineParametersParser>();
+		engineParametersParserMap.put("hp", new HorsePowerParser());
+		engineParametersParserMap.put("l", new LiterParser());
+		
+	}
+	@Override
+	public boolean validate(String engineInput) {
+		String[] engineInputSplit = engineInput.split("-");
+		
+		String loweredEngineCharac = engineInputSplit[1].toLowerCase();
+		
+		//int indexOfOptionalParam = engineInput.indexOf("-") + 1;
+		
+		//String optionParam = engineInput.substring(indexOfOptionalParam);
+		
+		return false;
+	}
+
+}

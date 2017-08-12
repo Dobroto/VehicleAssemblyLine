@@ -1,0 +1,33 @@
+package org.talentboost.assembly.validators.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.talentboost.assembly.validators.VehicleTypeValidator;
+
+public class VehicleTypeValidatorShould {
+
+	@Test
+	public void validate_ValidCarRepresentationLowerCase_ReturnTrue() {
+		VehicleTypeValidator vtv = new VehicleTypeValidator();
+		assertTrue(vtv.validate("car"));
+	}
+
+	@Test
+	public void validate_ValidCarRepresentationUpperCase_ReturnTrue() {
+		VehicleTypeValidator vtv = new VehicleTypeValidator();
+		assertTrue(vtv.validate("CAR"));
+	}
+	
+	@Test
+	public void validate_ValidSUVRepresentationLowerCase_ReturnTrue() {
+		VehicleTypeValidator vtv = new VehicleTypeValidator();
+		assertTrue(vtv.validate("suv"));
+	}
+	
+	@Test
+	public void validate_ValidSUVRepresentationUpperCase_ReturnTrue() {
+		VehicleTypeValidator vtv = new VehicleTypeValidator();
+		assertTrue(vtv.validate("SUV"));
+	}
+}

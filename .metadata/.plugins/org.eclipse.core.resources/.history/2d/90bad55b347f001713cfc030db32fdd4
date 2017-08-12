@@ -1,0 +1,38 @@
+package org.talentboost.assembly.validators.tests;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.talentboost.assembly.validators.ModelValidator;
+
+public class ModelValidatorShould {
+	
+	
+	@Test
+	public void validate_validCarWithValidCarModel_ReturnTrue() {
+		ModelValidator mv = new ModelValidator();
+		assertTrue(mv.validate("car", "model=A5"));
+	}
+
+	@Test
+	public void validate_validSUVWithValidSUVModel_ReturnTrue() {
+		ModelValidator mv = new ModelValidator();
+		assertTrue(mv.validate("suv", "model=Q5"));
+	}
+	
+	@Test
+	public void validate_validCarWithValidSUVModel_ReturnFalse() {
+		ModelValidator mv = new ModelValidator();
+		assertFalse(mv.validate("suv", "model=Q5"));
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
