@@ -17,5 +17,6 @@ public final class Constants {
 	public static final int engineRepresentationLength = 1;
 	public static final String turboSymbol = "t";
 	public static final double minPowerInKw = 54.0;
+	public static final String defaultEuroStandard = "euro3";
 
 }

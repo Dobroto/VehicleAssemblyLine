@@ -29,8 +29,8 @@ public class OptionalEngineParametersValidator implements IValidator {
 	@Override
 	public boolean validate(String engineInput) {
 		String[] engineInputSplit = engineInput.split("-");
-		
-		String loweredEngineType = engineInputSplit[0].toLowerCase();
+
+		String loweredEngineType = engineInputSplit[0].substring(engineInputSplit[0].length() - 1).toLowerCase();
 		String loweredEngineCharac = engineInputSplit[1].toLowerCase();
 
 		String pattern = "(\\d+)(\\w+)"; // match at least one digit followed by at least one alphabet character
@@ -43,11 +43,10 @@ public class OptionalEngineParametersValidator implements IValidator {
 			engineValue = m.group(1);
 			engineParameterKey = m.group(2);
 		}
-		
+
 		try {
-			double specificationsInput = Double.parseDouble(engineValue);
-		}
-		catch(NumberFormatException ex) {
+			Double.parseDouble(engineValue);
+		} catch (NumberFormatException ex) {
 			System.out.println("Please enter valid engine specisifications number.");
 			return false;
 		}
@@ -62,24 +61,26 @@ public class OptionalEngineParametersValidator implements IValidator {
 			return false;
 		}
 
+		String euroStandard = Constants.defaultEuroStandard;
+
 		if (engineInputSplit.length > 2) {
-			String euroStandard = engineInputSplit[2].toLowerCase();
+			euroStandard = engineInputSplit[2].toLowerCase();
 			if (!VehicleBrochure.euroStandards.contains(euroStandard)) {
 				System.out.println("Please enter valid euro standard.");
 				return false;
 			}
 		}
 
+		return checkInputEngineSpecsAvailability(wantsTurbo, engineValue, engineParameterKey, loweredEngineType);
 		
-		return true;
 	}
-	
-	public boolean checkInputEngineSpecsAvailability(boolean wantsTurbo, String engineValue, String engineParameterKey, String engineType) {
+
+	public boolean checkInputEngineSpecsAvailability(boolean wantsTurbo, String engineValue, String engineParameterKey,
+			String engineType) {
 		EngineParametersParser engineParamParser = engineParametersParserMap.get(engineParameterKey);
 		IEngineMainCharacteristic engineMainCharacteristic = engineParamParser.parse();
 		return engineMainCharacteristic.checkAvailability(engineValue, wantsTurbo, engineType);
-		
-		
+
 	}
 
 }

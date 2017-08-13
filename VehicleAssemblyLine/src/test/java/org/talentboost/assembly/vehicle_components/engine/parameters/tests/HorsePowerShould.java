@@ -66,7 +66,7 @@ public class HorsePowerShould {
 	}
 	
 	@Test
-	public void checkAvailability_ValidHPNoTurboEgineTypeElectric_succeeds() {
+	public void checkAvailability_ValidHPNoTurboEngineTypeElectric_succeeds() {
 		HorsePower hp = new HorsePower();
 		VehicleBrochure brochure = new VehicleBrochure();
 		TreeMap<Double, EngineSpecifications> enginePowerKWMap = brochure.getMapOfEnginePowerInKW();
@@ -80,10 +80,38 @@ public class HorsePowerShould {
 	
 
 	@Test
-	public void checkAvailability_invalidHPNoTurboEgineTypePetrol_succeeds() {
+	public void checkAvailability_invalidHPNoTurboEngineTypePetrol_fails() {
 		HorsePower hp = new HorsePower();
 		
 		assertFalse(hp.checkAvailability("71", false, "b"));
+	}
+	
+	@Test
+	public void checkAvailability_validHPWithTurboEngineTypePetrol_succeeds() {
+		HorsePower hp = new HorsePower();
+		
+		assertTrue(hp.checkAvailability("95.84", true, "b"));
+	}
+	
+	@Test
+	public void checkAvailability_validHPNoTurboEngineTypePetrol_succeeds() {
+		HorsePower hp = new HorsePower();
+		
+		assertTrue(hp.checkAvailability("73.72", false, "b"));
+	}
+	
+	@Test
+	public void checkAvailability_validHPWithInvalidTurboEngineTypePetrol_fails() {
+		HorsePower hp = new HorsePower();
+		
+		assertFalse(hp.checkAvailability("73.72", true, "b"));
+	}
+	
+	@Test
+	public void checkAvailability_validHPNoTurboEngineTypeDiesel_succeeds() {
+		HorsePower hp = new HorsePower();
+		
+		assertTrue(hp.checkAvailability("197", false, "d"));
 	}
 	
 	
