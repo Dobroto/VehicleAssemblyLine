@@ -1,11 +1,13 @@
 package org.talentboost.assembly.factory;
 
+import java.util.Map;
 import java.util.Scanner;
 
 import org.talentboost.assembly.validators.CountryValidator;
 import org.talentboost.assembly.validators.FactoryNumberValidator;
 import org.talentboost.assembly.validators.OptionalEngineParametersValidator;
 import org.talentboost.assembly.validators.VehicleTypeValidator;
+import org.talentboost.assembly.vehicle_components.engine.EngineSpecifications;
 
 public class AssemblyMain {
 
@@ -45,9 +47,6 @@ public class AssemblyMain {
 		Factory factory = new Factory(validCountryCode, validFactoryNum);
 		System.out.println("Please put the commands files in your home directory.");
 		
-		
-		OptionalEngineParametersValidator vtv = new OptionalEngineParametersValidator();
-		vtv.validate("engine=B-100hp");
 
 	}
 

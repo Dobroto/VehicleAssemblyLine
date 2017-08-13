@@ -1,67 +1,62 @@
 package org.talentboost.assembly.vehicle_components.engine;
 
 
-import org.talentboost.assembly.enums.EngineDisplacementCCEnum;
-import org.talentboost.assembly.enums.EngineTypesEnum;
-import org.talentboost.assembly.enums.PowerInKWEnum;
-
 public class EngineSpecifications {
-	int idNumber;
-	EngineDisplacementCCEnum engineDisplacementCC;
-	PowerInKWEnum powerInKW;
-	boolean turbo;
-	EngineTypesEnum engineTypes;
 	
-	public EngineSpecifications(int idNumber, EngineDisplacementCCEnum engineDisplacementCC, 
-			PowerInKWEnum powerInKW, boolean turbo, EngineTypesEnum engineTypes) {
-		this.idNumber = idNumber;
-		this.engineDisplacementCC = engineDisplacementCC;
-		this.powerInKW = powerInKW;
-		this.turbo = turbo;
-		this.engineTypes = engineTypes;
+	int idOfSpecification;
+	boolean hasTurbo;
+	String engineTypeOne;
+	String engineTypeTwo;
+	
+	public EngineSpecifications(String engineTypeOne) {
+		this.engineTypeOne = engineTypeOne;
+	}
+	
+	public EngineSpecifications(String engineTypeOne, String engineTypeTwo) {
+		this.engineTypeOne = engineTypeOne;
+		this.engineTypeTwo = engineTypeTwo;
+	}
+	
+	public EngineSpecifications(boolean turbo, String engineTypeOne) {
+		this.hasTurbo = turbo;
+		this.engineTypeOne = engineTypeOne;
+		this.idOfSpecification = 1;
+	}
+	
+	public EngineSpecifications(boolean turbo, String engineTypeOne, String engineTypeTwo) {
+		this.hasTurbo = turbo;
+		this.engineTypeOne = engineTypeOne;
+		this.engineTypeTwo = engineTypeTwo;
+		this.idOfSpecification = 2;
 	}
 
-	public int getIdNumber() {
-		return idNumber;
-	}
-
-	public void setIdNumber(int idNumber) {
-		this.idNumber = idNumber;
-	}
-
-	public EngineDisplacementCCEnum getEngineDisplacementCC() {
-		return engineDisplacementCC;
-	}
-
-	public void setEngineDisplacementCC(EngineDisplacementCCEnum engineDisplacementCC) {
-		this.engineDisplacementCC = engineDisplacementCC;
-	}
-
-	public PowerInKWEnum getPowerInKW() {
-		return powerInKW;
-	}
-
-	public void setPowerInKW(PowerInKWEnum powerInKW) {
-		this.powerInKW = powerInKW;
-	}
-
-	public boolean isTurbo() {
-		return turbo;
+	public boolean getTurbo() {
+		return hasTurbo;
 	}
 
 	public void setTurbo(boolean turbo) {
-		this.turbo = turbo;
+		this.hasTurbo = turbo;
 	}
 
-	public EngineTypesEnum getEngineTypes() {
-		return engineTypes;
+	public String getEngineTypeOne() {
+		return engineTypeOne;
 	}
 
-	public void setEngineTypes(EngineTypesEnum engineTypes) {
-		this.engineTypes = engineTypes;
+	public void setEngineTypeOne(String engineTypeOne) {
+		this.engineTypeOne = engineTypeOne;
 	}
 
-	
+	public String getEngineTypeTwo() {
+		return engineTypeTwo;
+	}
+
+	public void setEngineTypeTwo(String engineTypeTwo) {
+		this.engineTypeTwo = engineTypeTwo;
+	}
+
+	public int getIdOfSpecification() {
+		return this.idOfSpecification;
+	}
 	
 	
 	
