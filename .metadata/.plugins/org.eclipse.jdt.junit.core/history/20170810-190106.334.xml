@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="FactoryNumberValidatorShould" project="VehicleAssemblyLine" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="org.talentboost.assembly.validators.tests.FactoryNumberValidatorShould" time="0.0">
-    <testcase name="validate_unvalidNumber_returnFalse" classname="org.talentboost.assembly.validators.tests.FactoryNumberValidatorShould" time="0.0"/>
-    <testcase name="validate_validNumberCornerCase_returnTrue" classname="org.talentboost.assembly.validators.tests.FactoryNumberValidatorShould" time="0.0"/>
-    <testcase name="validate_validNumber_returnTrue" classname="org.talentboost.assembly.validators.tests.FactoryNumberValidatorShould" time="0.0"/>
-  </testsuite>
-</testrun>

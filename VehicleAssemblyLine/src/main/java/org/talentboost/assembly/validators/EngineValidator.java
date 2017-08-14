@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.talentboost.assembly.factory.Constants;
+import org.talentboost.assembly.parsers.engine_parsers.DieselEngineParser;
+import org.talentboost.assembly.parsers.engine_parsers.ElectricEngineParser;
 import org.talentboost.assembly.parsers.engine_parsers.EngineParser;
 import org.talentboost.assembly.parsers.engine_parsers.PetrolEngineParser;
 /**
@@ -20,8 +22,8 @@ public class EngineValidator implements IValidator {
 	public EngineValidator() {
 		engineParserMap = new HashMap<String, EngineParser>();
 		engineParserMap.put(Constants.petrolEngineSymbol, new PetrolEngineParser());
-		engineParserMap.put(Constants.dieselEngineSymbol, new PetrolEngineParser());
-		engineParserMap.put(Constants.electricEngineSymbol, new PetrolEngineParser());
+		engineParserMap.put(Constants.dieselEngineSymbol, new DieselEngineParser());
+		engineParserMap.put(Constants.electricEngineSymbol, new ElectricEngineParser());
 	}
 
 	@Override
@@ -50,6 +52,7 @@ public class EngineValidator implements IValidator {
 			}
 		} catch (NullPointerException ex) {
 			System.out.println("Please enter valid engine");
+			return false;
 		}
 
 		return true;

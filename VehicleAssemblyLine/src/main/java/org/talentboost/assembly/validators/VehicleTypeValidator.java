@@ -44,7 +44,7 @@ public class VehicleTypeValidator implements IValidator {
 		try {
 			if (vehicleTypeParserMap.get(loweredVehicleTypeInput) == null) {
 				System.out.println("Please enter valid vehicle type.");
-
+				return false;
 			}
 
 		} catch (NullPointerException ex) {

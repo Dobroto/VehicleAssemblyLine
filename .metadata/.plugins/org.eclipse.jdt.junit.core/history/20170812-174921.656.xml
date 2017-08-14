@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="EngineValidatorShould" project="VehicleAssemblyLine" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="org.talentboost.assembly.validators.tests.EngineValidatorShould" time="0.0">
-    <testcase name="validate_InalidEngine_ReturnFalse" classname="org.talentboost.assembly.validators.tests.EngineValidatorShould" time="0.0"/>
-    <testcase name="validate_ValidElectricEngine_ReturnTrue" classname="org.talentboost.assembly.validators.tests.EngineValidatorShould" time="0.0"/>
-    <testcase name="validate_ValidPetrolEngine_ReturnTrue" classname="org.talentboost.assembly.validators.tests.EngineValidatorShould" time="0.0"/>
-    <testcase name="validate_ValidDieselEngine_ReturnTrue" classname="org.talentboost.assembly.validators.tests.EngineValidatorShould" time="0.0"/>
-  </testsuite>
-</testrun>
