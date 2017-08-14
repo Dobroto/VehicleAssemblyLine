@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="EngineValidatorShould" project="VehicleAssemblyLine" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="org.talentboost.assembly.validators.tests.EngineValidatorShould" time="0.001">
-    <testcase name="validate_ValidPetrolEngine_ReturnTrue" classname="org.talentboost.assembly.validators.tests.EngineValidatorShould" time="0.001"/>
-  </testsuite>
-</testrun>

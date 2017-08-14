@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="CountryValidatorShould" project="VehicleAssemblyLine" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="org.talentboost.assembly.validators.tests.CountryValidatorShould" time="0.005">
-    <testcase name="validate_validCode_returnTrue" classname="org.talentboost.assembly.validators.tests.CountryValidatorShould" time="0.005"/>
-  </testsuite>
-</testrun>
