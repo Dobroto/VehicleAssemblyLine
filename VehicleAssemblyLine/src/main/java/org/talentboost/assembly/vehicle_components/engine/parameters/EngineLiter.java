@@ -10,10 +10,10 @@ public class EngineLiter implements IEngineMainCharacteristic {
 	Map<Integer, EngineSpecifications> engineDisplacementCCMap;
 
 	/**
-	 * If the given engine specifications include liters this class's checkAvailability
-	 * will be called. We are simply converting from liters to CC and then we search 
-	 * in the displacement map for the CC value. We are also checking is this engine
-	 * displacement is available to this engine type.
+	 * If the given engine specifications include liters this class's
+	 * checkAvailability will be called. We are simply converting from liters to CC
+	 * and then we search in the displacement map for the CC value. We are also
+	 * checking is this engine displacement is available to this engine type.
 	 */
 	@Override
 	public boolean checkAvailability(String displacementLiterInput, boolean hasTurbo, String engineType) {
@@ -21,18 +21,27 @@ public class EngineLiter implements IEngineMainCharacteristic {
 		VehicleBrochure brochure = new VehicleBrochure();
 		engineDisplacementCCMap = brochure.getMapOfEngineDisplacementCC();
 		int ccDisplacement = turnFromLiterToCC(displacementLiterInput);
-		
-		if(engineDisplacementCCMap.containsKey(ccDisplacement)) {
+
+		if (engineDisplacementCCMap.containsKey(ccDisplacement)) {
 			EngineSpecifications es = engineDisplacementCCMap.get(ccDisplacement);
-			
-			if((es.getEngineTypeOne() != engineType) && (es.getEngineTypeTwo() != engineType)) {
-				System.out.println("These liters are not available to this engine type.");
+
+			try {
+				if ((es.getEngineTypeTwo() == null) && (!es.getEngineTypeOne().equals(engineType))) {
+					System.out.println("These liters are not available to this engine type.");
+					
+				}
+				if ((es.getEngineTypeTwo() != null)
+						&& ((es.getEngineTypeOne().equals(engineType)) && (es.getEngineTypeTwo().equals(engineType)))) {
+					System.out.println("These liters are not available to this engine type.");
+					
+				}
+			} catch (NullPointerException ex) {
 				return false;
 			}
+
 			return true;
 		}
-		
-		
+
 		return false;
 	}
 

@@ -6,7 +6,13 @@ import java.util.Map;
 import org.talentboost.assembly.factory.Constants;
 import org.talentboost.assembly.parsers.engine_parsers.EngineParser;
 import org.talentboost.assembly.parsers.engine_parsers.PetrolEngineParser;
-
+/**
+ * This class validates the symbols of the engine, the preffix of the engine part
+ * ("engine=") and if there are additional parameters, the 
+ * OptionalEngineParametersValidator.validate() is called.
+ * @author Borislav Georgiev
+ *
+ */
 public class EngineValidator implements IValidator {
 
 	private Map<String, EngineParser> engineParserMap;

@@ -114,5 +114,13 @@ public class HorsePowerShould {
 		assertTrue(hp.checkAvailability("197", false, "d"));
 	}
 	
+	@Test
+	public void checkAvailability_validHPNoTurboEngineTypeElectronic_succeeds() {
+		HorsePower hp = new HorsePower();
+		
+		assertTrue(hp.checkAvailability("717", false, "e"));
+	}
+	
+	
 	
 }

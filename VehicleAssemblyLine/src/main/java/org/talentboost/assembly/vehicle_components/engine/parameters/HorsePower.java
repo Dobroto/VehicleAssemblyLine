@@ -38,10 +38,14 @@ public class HorsePower implements IEngineMainCharacteristic {
 				&& (groupBelow.getEngineTypeOne().equals(groupAbove.getEngineTypeOne()))
 				&& (groupBelow.getTurbo() == groupAbove.getTurbo())) {
 			
-			if ((groupBelow.getEngineTypeOne() != engineType)
-					&& (groupBelow.getEngineTypeTwo() != engineType)
-					&& (groupBelow.getEngineTypeTwo() != null)) {
-				System.out.println("That horse power isn't available with this engine.");
+			if ((groupBelow.getEngineTypeTwo() == null) && (!groupBelow.getEngineTypeOne().equals(engineType))) {
+				System.out.println("These horse powers are not available to this engine type.");
+				return false;
+			}
+			if ((groupBelow.getEngineTypeTwo() != null)
+					&& ((groupBelow.getEngineTypeOne().equals(engineType))
+							&& (groupBelow.getEngineTypeTwo().equals(engineType)))) {
+				System.out.println("These horse powers are not available to this engine type.");
 				return false;
 			}
 			if (wantsTurbo) {

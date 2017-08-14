@@ -12,12 +12,27 @@ import org.talentboost.assembly.parsers.engine_parameters_parsers.HorsePowerPars
 import org.talentboost.assembly.parsers.engine_parameters_parsers.LiterParser;
 import org.talentboost.assembly.vehicle_components.engine.parameters.IEngineMainCharacteristic;
 
+/**
+ * This class validates the specifications after the engine type (horse power, liters,
+ * turbo, euro standard).
+ * It uses two methods - validate and checkInputEngineSpecsAvailability.
+ * After the validate method separates the numbers, the suffix and the turbo (100, HP, T)
+ * it checks if suffices "HP" and "L" are present it the engineParametersParserMap.
+ * If there is euro standard - it is checked if the engine type is E (if it is and 
+ * the euro standard is different than euro6 it returns false).
+ * 
+ * Then checkInputEngineSpecsAvailability parses to the appropriate class (either HorsePower for hp 
+ * or EngineLiter for L).
+ * @author Borislav Georgiev
+ *
+ */
 public class OptionalEngineParametersValidator implements IValidator {
 
 	private Map<String, EngineParametersParser> engineParametersParserMap;
 	String engineValue;
 	String engineParameterKey;
 	boolean wantsTurbo = false;
+	String euroStandard = Constants.defaultEuroStandard;
 
 	public OptionalEngineParametersValidator() {
 		engineParametersParserMap = new HashMap<String, EngineParametersParser>();
@@ -52,7 +67,7 @@ public class OptionalEngineParametersValidator implements IValidator {
 		}
 
 		if (engineParameterKey.endsWith(Constants.turboSymbol)) {
-			engineParameterKey.replaceFirst(Constants.turboSymbol, "");
+			engineParameterKey = engineParameterKey.replace(Constants.turboSymbol, "");
 			wantsTurbo = true;
 		}
 
@@ -61,18 +76,20 @@ public class OptionalEngineParametersValidator implements IValidator {
 			return false;
 		}
 
-		String euroStandard = Constants.defaultEuroStandard;
-
 		if (engineInputSplit.length > 2) {
+
 			euroStandard = engineInputSplit[2].toLowerCase();
-			if (!VehicleBrochure.euroStandards.contains(euroStandard)) {
+
+			if ((!VehicleBrochure.euroStandards.contains(euroStandard))
+					|| (loweredEngineType.equals(Constants.electricEngineSymbol))
+							&& (!euroStandard.equals(Constants.electricEuroStandard))) {
 				System.out.println("Please enter valid euro standard.");
 				return false;
 			}
 		}
 
 		return checkInputEngineSpecsAvailability(wantsTurbo, engineValue, engineParameterKey, loweredEngineType);
-		
+
 	}
 
 	public boolean checkInputEngineSpecsAvailability(boolean wantsTurbo, String engineValue, String engineParameterKey,

@@ -18,5 +18,6 @@ public final class Constants {
 	public static final String turboSymbol = "t";
 	public static final double minPowerInKw = 54.0;
 	public static final String defaultEuroStandard = "euro3";
+	public static final String electricEuroStandard = "euro6";
 
 }
