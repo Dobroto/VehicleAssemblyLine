@@ -6,8 +6,8 @@ import org.talentboost.assembly.vehicle_components.engine.IEngine;
 public class DieselEngineParser extends EngineParser {
 
 	@Override
-	public IEngine parse(int engineDisplacementCC, int powerInKW, boolean hasTurbo, String emissionStandard) {
-		return new DieselEngine(engineDisplacementCC, powerInKW, hasTurbo, emissionStandard);
+	public IEngine parse() {
+		return new DieselEngine(null, null, false, null);
 	}
 
 }

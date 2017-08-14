@@ -2,66 +2,46 @@ package org.talentboost.assembly.vehicle_components.engine;
 
 import org.talentboost.assembly.factory.Constants;
 
-public final class PetrolEngine implements IEngine{
+public final class PetrolEngine implements IEngine {
 
-	private int engineDisplacementCC;
-	private int powerInKW;
+	private String engineDisplacementLiters;
+	private String horsePower;
 	private boolean hasTurbo;
 	private String emissionStandard;
 	private String typeOfFuel = "P";
-	
-	public PetrolEngine() {
-		
-	}
-	public PetrolEngine(int engineDisplacementCC, int powerInKW, 
+
+	public PetrolEngine(String engineDisplacementLiters, String horsePower,
 			boolean hasTurbo, String emissionStandard) {
-		
-		this.engineDisplacementCC = engineDisplacementCC;
-		this.powerInKW = powerInKW;
+		this.engineDisplacementLiters = engineDisplacementLiters;
+		this.horsePower = horsePower;
 		this.hasTurbo = hasTurbo;
 		this.emissionStandard = emissionStandard;
-	}
-	
-	public int getEngineDisplacementInCC() {
-		return this.engineDisplacementCC;
-	}
 
-	@Override
-	public double getPowerInKW() {
-		return this.powerInKW;
-	}
-	
-	@Override
-	public double getPowerInHP() {
-		return this.powerInKW * Constants.kWToHPConversionValue;
-	}
-
-	
-	public boolean hasTurbo() {
-		return this.hasTurbo;
-	}
-	
-	public double getPowerWithTurboInHP() {
-		return getPowerInHP() * Constants.powerIncreaseWithTurbo;
-	}
-
-	@Override
-	public String getEmissionStandard() {
-		return this.emissionStandard;
-	}
-	
-	@Override
-	public String getEngineSymbol() {
-		return Constants.petrolEngineSymbol;
 	}
 
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append(this.typeOfFuel);
-		//sb.append(c)
-		return null;
-		
+		sb.append(this.typeOfFuel + "-");
+		if (this.horsePower != null) {
+			sb.append(this.horsePower + "hp");
+		}
+		if (this.engineDisplacementLiters != null) {
+			sb.append(this.engineDisplacementLiters + "L");
+		}
+		if (this.hasTurbo) {
+			sb.append("T-");
+		} else {
+			sb.append("-");
+		}
+		if (this.emissionStandard == null) {
+			sb.append(Constants.defaultEuroStandard);
+		} else {
+			sb.append(this.emissionStandard);
+		}
+
+		return sb.toString();
+
 	}
 
 }
