@@ -20,5 +20,6 @@ public final class Constants {
 	public static final String defaultEuroStandard = "euro3";
 	public static final String electricEuroStandard = "euro6";
 	public static final int defaultNumberOfGears = 4;
+	public static final String electronicEngineHP = "717";
 
 }

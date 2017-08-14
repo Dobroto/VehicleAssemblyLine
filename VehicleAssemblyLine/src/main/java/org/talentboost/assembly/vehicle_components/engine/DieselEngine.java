@@ -8,7 +8,7 @@ public class DieselEngine implements IEngine{
 	private String horsePower;
 	private boolean hasTurbo;
 	private String emissionStandard;
-	private String typeOfFuel = "P";
+	private String typeOfFuel = "D";
 	
 	
 	public DieselEngine(String engineDisplacementLiters, String horsePower,
@@ -20,6 +20,30 @@ public class DieselEngine implements IEngine{
 		this.emissionStandard = emissionStandard;
 	}
 
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append(this.typeOfFuel + "-");
+		if (this.horsePower != null) {
+			sb.append(this.horsePower + "hp");
+		}
+		if (this.engineDisplacementLiters != null) {
+			sb.append(this.engineDisplacementLiters + "L");
+		}
+		if (this.hasTurbo) {
+			sb.append("T-");
+		} else {
+			sb.append("-");
+		}
+		if (this.emissionStandard == null) {
+			sb.append(Constants.defaultEuroStandard);
+		} else {
+			sb.append(this.emissionStandard);
+		}
+
+		return sb.toString();
+
+	}
 	
 
 	

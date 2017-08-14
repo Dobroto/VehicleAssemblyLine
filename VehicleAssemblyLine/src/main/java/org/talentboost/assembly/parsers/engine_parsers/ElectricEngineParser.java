@@ -7,7 +7,7 @@ public class ElectricEngineParser extends EngineParser{
 
 	@Override
 	public IEngine parse() {
-		return new ElectricEngine();
+		return new ElectricEngine(null);
 	}
 
 }

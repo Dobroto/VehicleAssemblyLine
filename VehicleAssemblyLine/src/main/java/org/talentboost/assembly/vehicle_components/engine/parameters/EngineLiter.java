@@ -28,12 +28,12 @@ public class EngineLiter implements IEngineMainCharacteristic {
 			try {
 				if ((es.getEngineTypeTwo() == null) && (!es.getEngineTypeOne().equals(engineType))) {
 					System.out.println("These liters are not available to this engine type.");
-					
+					return false;
 				}
 				if ((es.getEngineTypeTwo() != null)
 						&& ((es.getEngineTypeOne().equals(engineType)) && (es.getEngineTypeTwo().equals(engineType)))) {
 					System.out.println("These liters are not available to this engine type.");
-					
+					return false;
 				}
 			} catch (NullPointerException ex) {
 				return false;
