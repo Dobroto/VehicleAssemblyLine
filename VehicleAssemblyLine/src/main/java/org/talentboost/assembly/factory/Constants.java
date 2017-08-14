@@ -9,8 +9,8 @@ public final class Constants {
 	public static final String petrolEngineSymbol = "b";
 	public static final String dieselEngineSymbol = "d";
 	public static final String electricEngineSymbol = "e";
-	public static final String manualTransmissionSymbol = "Manual";
-	public static final String automaticTransmissionSymbol = "Auto";
+	public static final String manualTransmissionSymbol = "manual";
+	public static final String automaticTransmissionSymbol = "auto";
 	public static final String vehicleTypeRepresentationSUV = "suv";
 	public static final String vehicleTypeRepresentationCar = "car";
 	public static final int vehicleModelRepresentationLength = 2;
@@ -19,5 +19,6 @@ public final class Constants {
 	public static final double minPowerInKw = 54.0;
 	public static final String defaultEuroStandard = "euro3";
 	public static final String electricEuroStandard = "euro6";
+	public static final int defaultNumberOfGears = 4;
 
 }

@@ -1,16 +1,26 @@
 package org.talentboost.assembly.commands;
 
+import org.talentboost.assembly.validators.CreateVehicleCommandValidator;
+
 public class CreateVehicleCommand implements ICommand{
 
+	private String commandName = "create";
+	
 	@Override
 	public String getCommandName() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.commandName;
 	}
 
 	@Override
 	public String execute(String input) {
-		// TODO Auto-generated method stub
+		
+		CreateVehicleCommandValidator cvcv = new CreateVehicleCommandValidator();
+		if (!cvcv.validate(input)) {
+			return "Please enter valid vehicle.";
+		}
+		
+		
+		
 		return null;
 	}
 

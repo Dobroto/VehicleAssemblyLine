@@ -33,9 +33,9 @@ public class VehicleBrochure {
 
 	public final Set<String> transmissionTypes = new HashSet<>(Arrays.asList("automatic", "manual"));
 
-	public final Set<String> automaticGearsNumber = new HashSet<>(Arrays.asList("4", "5", "6", "8"));
+	public final static Set<String> automaticGearsNumber = new HashSet<>(Arrays.asList("4", "5", "6", "8"));
 
-	public final Set<String> manualGearsNumber = new HashSet<>(Arrays.asList("4", "5", "6"));
+	public final static Set<String> manualGearsNumber = new HashSet<>(Arrays.asList("4", "5", "6"));
 
 	public final static Set<String> euroStandards = new HashSet<>(Arrays.asList("euro3", "euro4", "euro5", "euro6"));
 

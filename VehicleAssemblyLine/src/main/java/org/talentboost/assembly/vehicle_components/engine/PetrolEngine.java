@@ -8,8 +8,11 @@ public final class PetrolEngine implements IEngine{
 	private int powerInKW;
 	private boolean hasTurbo;
 	private String emissionStandard;
+	private String typeOfFuel = "P";
 	
-	
+	public PetrolEngine() {
+		
+	}
 	public PetrolEngine(int engineDisplacementCC, int powerInKW, 
 			boolean hasTurbo, String emissionStandard) {
 		
@@ -52,6 +55,13 @@ public final class PetrolEngine implements IEngine{
 		return Constants.petrolEngineSymbol;
 	}
 
-	
+	@Override
+	public String toString() {
+		StringBuilder sb = new StringBuilder();
+		sb.append(this.typeOfFuel);
+		//sb.append(c)
+		return null;
+		
+	}
 
 }
