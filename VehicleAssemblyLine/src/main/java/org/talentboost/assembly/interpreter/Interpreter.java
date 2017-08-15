@@ -19,7 +19,6 @@ import org.talentboost.assembly.factory.VehicleBrochure;
 
 
 public class Interpreter {
-	private static VehicleBrochure memory = new VehicleBrochure();
 	private Map<String, ICommand> COMMAND_MAP;
 	String countryCode;
 	String factoryNum;
@@ -48,6 +47,7 @@ public class Interpreter {
     public void processInput(InputStream str) {
     	Scanner sc = new Scanner(str);
     	try {
+    		
     		while(sc.hasNextLine()) {
     			String line = sc.nextLine().trim();
     			processLine(line);
@@ -81,7 +81,7 @@ public class Interpreter {
 		
 		
 	}
-    
+   
     
     
 	

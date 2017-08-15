@@ -1,8 +1,10 @@
 package org.talentboost.assembly.factory;
 
+import java.io.InputStream;
 import java.util.Map;
 import java.util.Scanner;
 
+import org.talentboost.assembly.interpreter.Interpreter;
 import org.talentboost.assembly.validators.CountryValidator;
 import org.talentboost.assembly.validators.FactoryNumberValidator;
 import org.talentboost.assembly.validators.OptionalEngineParametersValidator;
@@ -13,41 +15,28 @@ public class AssemblyMain {
 
 	public static void main(String[] args) {
 
+		InputStream str = System.in;
 		System.out.println("Please enter the factory's country ISO code.");
-		Scanner sc = new Scanner(System.in);
-		CountryValidator cv = new CountryValidator();
-		FactoryNumberValidator fnv = new FactoryNumberValidator();
-		String validCountryCode = null;
-		String validFactoryNum = null;
-
-		try {
-			while (sc.hasNextLine()) {
-				validCountryCode = sc.nextLine().trim();
-				if (cv.validate(validCountryCode)) {
-					break;
-				}
-				else {
-					System.out.println("Please enter a valid country code.");
-				}
-			}
-
-			System.out.println("Please enter your factory's number.");
-
-			while (sc.hasNextLine()) {
-				validFactoryNum = sc.nextLine().trim();
-				if (fnv.validate(validFactoryNum)) {
-					break;
-				}
-			}
-
-		} finally {
-			sc.close();
-		}
-
-		Factory factory = new Factory(validCountryCode, validFactoryNum);
-		System.out.println("Please put the commands files in your home directory.");
+		String coutryCode = Greeter.getCountryCode(str);
 		
 
+		System.out.println("Please enter your factory's number.");
+		
+		String factoryNumber = Greeter.getFactoryCode(str);
+		
+			Interpreter interpreter = new Interpreter(coutryCode, factoryNumber);
+			interpreter.processInput(str);
+			
+			
+
+		
+
+		
+		//InputStream str = System.in;
+		
+		
+		/*Factory factory = Factory.getInstance();
+		factory.interpretate(str, validFactoryNum, validFactoryNum);*/
 	}
 
 }
