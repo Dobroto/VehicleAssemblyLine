@@ -12,37 +12,24 @@ public class Greeter {
 	static String validCountryCode = null;
 	static String validFactoryNum = null;
 
-	public static String getCountryCode(InputStream str) {
-		Scanner sc = new Scanner(str);
-		try {
-			while (sc.hasNextLine()) {
-				validCountryCode = sc.nextLine().trim();
-				if (cv.validate(validCountryCode)) {
-					return validCountryCode;
-				} else {
-					System.out.println("Please enter a valid country code.");
-				}
-			}
-		} finally {
-			sc.close();
-		}
-		return validCountryCode;
-	}
-	
+	public static String getCountryCode(String line) {
 
-	public static String getFactoryCode(InputStream str) {
-
-		Scanner sc = new Scanner(str);
-		try {
-			while (sc.hasNextLine()) {
-				validFactoryNum = sc.nextLine().trim();
-				if (fnv.validate(validFactoryNum)) {
-					return validFactoryNum;
-				}
-			}
-		} finally {
-			sc.close();
+		if (cv.validate(line.trim())) {
+			return line;
+		} else {
+			return null;
 		}
-		return validFactoryNum;
+
 	}
+
+	public static String getFactoryCode(String line) {
+
+		if (fnv.validate(line.trim())) {
+			return line;
+		} else {
+			return null;
+		}
+
+	}
+
 }

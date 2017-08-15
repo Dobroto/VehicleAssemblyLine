@@ -15,28 +15,33 @@ public class AssemblyMain {
 
 	public static void main(String[] args) {
 
+		Scanner sc = new Scanner(System.in);
+
+		String coutryCode = null;
+		
+		while (coutryCode == null) {
+			System.out.println("Please enter valid country code.");
+			String countryCodeInput = sc.next();
+			coutryCode = Greeter.getCountryCode(countryCodeInput);
+		}
+		
+		
+		String factoryNumber = null;
+		
+		while(factoryNumber == null) {
+			System.out.println("Please enter valid factory code.");
+
+			String factoryCodeInput = sc.next();
+			factoryNumber = Greeter.getFactoryCode(factoryCodeInput);
+		}
+		
+
 		InputStream str = System.in;
-		System.out.println("Please enter the factory's country ISO code.");
-		String coutryCode = Greeter.getCountryCode(str);
-		
 
-		System.out.println("Please enter your factory's number.");
-		
-		String factoryNumber = Greeter.getFactoryCode(str);
-		
-			Interpreter interpreter = new Interpreter(coutryCode, factoryNumber);
-			interpreter.processInput(str);
-			
-			
+		Interpreter interpreter = new Interpreter(coutryCode, factoryNumber);
+		interpreter.processInput(str);
 
-		
-
-		
-		//InputStream str = System.in;
-		
-		
-		/*Factory factory = Factory.getInstance();
-		factory.interpretate(str, validFactoryNum, validFactoryNum);*/
+	
 	}
 
 }
