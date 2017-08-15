@@ -36,8 +36,8 @@ public class OptionalEngineParametersValidator implements IValidator {
 
 	public OptionalEngineParametersValidator() {
 		engineParametersParserMap = new HashMap<String, EngineParametersParser>();
-		engineParametersParserMap.put("hp", new HorsePowerParser());
-		engineParametersParserMap.put("l", new LiterParser());
+		engineParametersParserMap.put(Constants.horsePowerSuffix, new HorsePowerParser());
+		engineParametersParserMap.put(Constants.literSuffix, new LiterParser());
 
 	}
 

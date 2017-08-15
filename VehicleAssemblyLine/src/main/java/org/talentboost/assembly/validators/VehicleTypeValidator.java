@@ -7,7 +7,7 @@ import org.talentboost.assembly.factory.Constants;
 import org.talentboost.assembly.parsers.vehicle_parsers.CarParser;
 import org.talentboost.assembly.parsers.vehicle_parsers.SUVParser;
 import org.talentboost.assembly.parsers.vehicle_parsers.VehicleParser;
-import org.talentboost.assembly.vehicles.IVehicleType;
+import org.talentboost.assembly.vehicle_types.IVehicleType;
 
 /**
  * 

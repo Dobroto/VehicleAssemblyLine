@@ -5,8 +5,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 import org.talentboost.assembly.validators.VehicleTypeValidator;
-import org.talentboost.assembly.vehicles.Car;
-import org.talentboost.assembly.vehicles.SUV;
+import org.talentboost.assembly.vehicle_types.Car;
+import org.talentboost.assembly.vehicle_types.SUV;
 
 public class VehicleTypeValidatorShould {
 

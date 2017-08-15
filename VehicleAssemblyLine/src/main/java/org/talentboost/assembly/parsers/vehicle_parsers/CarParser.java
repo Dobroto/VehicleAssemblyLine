@@ -1,7 +1,7 @@
 package org.talentboost.assembly.parsers.vehicle_parsers;
 
-import org.talentboost.assembly.vehicles.Car;
-import org.talentboost.assembly.vehicles.IVehicleType;
+import org.talentboost.assembly.vehicle_types.Car;
+import org.talentboost.assembly.vehicle_types.IVehicleType;
 
 public class CarParser extends VehicleParser{
 

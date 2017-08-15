@@ -73,7 +73,7 @@ public class TransmissionValidator implements IValidator {
 	public boolean checkTransmissionGears(String transmissionType, String gearNumberInput) {
 
 		try {
-			int gearNumber = Integer.parseInt(gearNumberInput);
+			String gearNumber = gearNumberInput;
 			TransmissionParser transmissionParser = transmissionParserMap.get(transmissionType);
 			ITransmission transmission = transmissionParser.parse(gearNumber);
 			return transmission.validateGearNumber(gearNumberInput);

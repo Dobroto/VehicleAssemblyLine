@@ -70,19 +70,24 @@ public class Vehicle {
 
 	@Override
 	public String toString() {
-		
+
 		StringBuilder sb = new StringBuilder();
 		sb.append("VIN = ");
 		sb.append(this.vehicleIdentificationNumber);
 		sb.append(" Model = ");
 		sb.append(this.modelName);
 		sb.append(" Type = ");
-		sb.append(this.modelType);
+		if (this.modelType == null) {
+			sb.append("Sedan");
+		} else {
+			sb.append(this.modelType);
+		}
+
 		sb.append(" Engine = ");
 		sb.append(this.engine.toString());
 		sb.append(" Transmission = ");
 		sb.append(this.transmission.toString());
-		
+
 		return sb.toString();
 	}
 

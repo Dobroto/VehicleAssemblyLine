@@ -1,7 +1,7 @@
 package org.talentboost.assembly.validators;
 
 import org.talentboost.assembly.factory.Constants;
-import org.talentboost.assembly.vehicles.IVehicleType;
+import org.talentboost.assembly.vehicle_types.IVehicleType;
 
 public class ModelValidator {
 

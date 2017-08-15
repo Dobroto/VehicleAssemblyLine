@@ -11,14 +11,14 @@ public class PetrolEngineShould {
 	public void toString_Petrol100HpTurboEuro3_PrintCorrectly() {
 		PetrolEngine pe = new PetrolEngine(null, "100", true, "euro3");
 
-		assertEquals("P-100hpT-euro3", pe.toString());
+		assertEquals("B-100hpT-euro3", pe.toString());
 	}
 
 	@Test
 	public void toString_Petrol6L_PrintCorrectly() {
 		PetrolEngine pe = new PetrolEngine("6", null, false, null);
 
-		assertEquals("P-6L-euro3", pe.toString());
+		assertEquals("B-6L-euro3", pe.toString());
 	}
 
 }

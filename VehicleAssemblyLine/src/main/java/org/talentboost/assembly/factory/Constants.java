@@ -19,7 +19,11 @@ public final class Constants {
 	public static final double minPowerInKw = 54.0;
 	public static final String defaultEuroStandard = "euro3";
 	public static final String electricEuroStandard = "euro6";
-	public static final int defaultNumberOfGears = 4;
+	public static final String defaultNumberOfGears = "4";
 	public static final String electronicEngineHP = "717";
-
+	public static final String horsePowerSuffix = "hp";
+	public static final String literSuffix = "l";
+	public static final String equalsChar = "=";
+	public static final String minusChar = "-";
+	
 }

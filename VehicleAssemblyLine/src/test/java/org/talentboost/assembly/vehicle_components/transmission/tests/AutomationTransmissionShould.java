@@ -9,14 +9,14 @@ public class AutomationTransmissionShould {
 
 	@Test
 	public void toString_AutoDefaultGears_PrintCorrectly() {
-		AutomaticTransmission at = new AutomaticTransmission();
+		AutomaticTransmission at = new AutomaticTransmission(null);
 		
 		assertEquals("Auto-4", at.toString());
 	}
 
 	@Test
 	public void toString_AutoFiveGears_PrintCorrectly() {
-		AutomaticTransmission at = new AutomaticTransmission(5);
+		AutomaticTransmission at = new AutomaticTransmission("5");
 		
 		assertEquals("Auto-5", at.toString());
 	}

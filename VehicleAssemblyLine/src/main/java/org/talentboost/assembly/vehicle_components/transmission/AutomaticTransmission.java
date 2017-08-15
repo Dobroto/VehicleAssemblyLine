@@ -5,14 +5,10 @@ import org.talentboost.assembly.factory.VehicleBrochure;
 
 public class AutomaticTransmission implements ITransmission {
 
-	private int numOfGears;
+	private String numOfGears;
 	private String nameOfTransmission = "Auto";
 
-	public AutomaticTransmission() {
-		this.numOfGears = Constants.defaultNumberOfGears;
-	}
-
-	public AutomaticTransmission(int numOfGears) {
+	public AutomaticTransmission(String numOfGears) {
 		this.numOfGears = numOfGears;
 	}
 
@@ -22,7 +18,7 @@ public class AutomaticTransmission implements ITransmission {
 	}
 
 	@Override
-	public int getNumberOfGears() {
+	public String getNumberOfGears() {
 		return this.numOfGears;
 	}
 
@@ -38,7 +34,11 @@ public class AutomaticTransmission implements ITransmission {
 		StringBuilder sb = new StringBuilder();
 		sb.append(this.nameOfTransmission + "-");
 
-		sb.append(getNumberOfGears());
+		if (numOfGears != null) {
+			sb.append(numOfGears);
+		} else {
+			sb.append(Constants.defaultNumberOfGears);
+		}
 
 		return sb.toString();
 	}

@@ -7,7 +7,8 @@ public final class ElectricEngine implements IEngine {
 	private String horsePower;
 	private String typeOfFuel = "E";
 
-	public ElectricEngine(String horsePower) {
+	public ElectricEngine(String engineDisplacementLiters, String horsePower,
+			boolean hasTurbo, String emissionStandard) {
 		this.horsePower = horsePower;
 	}
 

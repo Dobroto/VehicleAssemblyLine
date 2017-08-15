@@ -1,26 +1,25 @@
-package org.talentboost.assembly.vehicles;
+package org.talentboost.assembly.vehicle_types;
 
 import java.util.Set;
 
 import org.talentboost.assembly.factory.Constants;
 import org.talentboost.assembly.factory.VehicleBrochure;
 
-public class SUV implements IVehicleType{
+public class Car implements IVehicleType {
 
 	@Override
 	public Set<String> getListOfModels() {
-		return VehicleBrochure.SUVModels;
+		return VehicleBrochure.carModels;
 	}
 
 	@Override
 	public String getVehicleTypeRepresentation() {
-		return Constants.vehicleTypeRepresentationSUV;
+		return Constants.vehicleTypeRepresentationCar;
 	}
 
 	@Override
 	public Set<String> getAvailableVehicleModels() {
-		return VehicleBrochure.SUVModels;
+		return VehicleBrochure.carModels;
 	}
 
-	
 }

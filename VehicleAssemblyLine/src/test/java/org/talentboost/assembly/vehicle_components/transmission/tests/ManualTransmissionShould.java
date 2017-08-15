@@ -10,14 +10,14 @@ public class ManualTransmissionShould {
 
 	@Test
 	public void toString_ManualDefaultGears_PrintCorrectly() {
-		ManualTransmission mt = new ManualTransmission();
+		ManualTransmission mt = new ManualTransmission(null);
 		
 		assertEquals("Manual-4", mt.toString());
 	}
 
 	@Test
 	public void toString_AutoFiveGears_PrintCorrectly() {
-		ManualTransmission mt = new ManualTransmission(5);
+		ManualTransmission mt = new ManualTransmission("5");
 		
 		assertEquals("Manual-5", mt.toString());
 	}

@@ -6,7 +6,7 @@ import org.talentboost.assembly.vehicle_components.transmission.ITransmission;
 public class AutomaticTransmissionParser extends TransmissionParser{
 
 	@Override
-	public ITransmission parse(int numOfGears) {
+	public ITransmission parse(String numOfGears) {
 		return new AutomaticTransmission(numOfGears);
 	}
 

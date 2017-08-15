@@ -1,4 +1,4 @@
-package org.talentboost.assembly.vehicles;
+package org.talentboost.assembly.vehicle_types;
 
 import java.util.Set;
 

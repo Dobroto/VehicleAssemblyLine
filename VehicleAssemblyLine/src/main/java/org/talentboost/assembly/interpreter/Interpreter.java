@@ -21,12 +21,17 @@ import org.talentboost.assembly.factory.VehicleBrochure;
 public class Interpreter {
 	private static VehicleBrochure memory = new VehicleBrochure();
 	private Map<String, ICommand> COMMAND_MAP;
+	String countryCode;
+	String factoryNum;
+	
     /*
      * Offering our commands to the client 
      */
-    public Interpreter() {
-    	this(Arrays.asList(new ICommand[] {new CreateVehicleCommand(), new DisassembleCommand(), 
+    public Interpreter(String countryCode, String factoryNum) {
+    	this(Arrays.asList(new ICommand[] {new CreateVehicleCommand(countryCode, factoryNum), new DisassembleCommand(), 
     	    		new FindCommand(), new PrintCommand(), new UpdateCommand() }));
+    	this.countryCode = countryCode;
+    	this.factoryNum = factoryNum;
     }
     
     /*

@@ -8,7 +8,7 @@ public final class PetrolEngine implements IEngine {
 	private String horsePower;
 	private boolean hasTurbo;
 	private String emissionStandard;
-	private String typeOfFuel = "P";
+	private String typeOfFuel = "B";
 
 	public PetrolEngine(String engineDisplacementLiters, String horsePower,
 			boolean hasTurbo, String emissionStandard) {
