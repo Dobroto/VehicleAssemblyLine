@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31091978-880e-446a-906c-9f2097671955" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/VehicleAssemblyLine/.indexes/e4/b9/22/e4/37/1a/2c/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/VehicleAssemblyLine/.indexes/e4/b9/22/e4/37/1a/9/1c/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/VehicleAssemblyLine/.indexes/e4/b9/22/e4/37/1a/9/be/ea/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/VehicleAssemblyLine/.indexes/e4/b9/22/e4/37/1a/9/be/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/VehicleAssemblyLine/.indexes/e4/b9/22/e4/37/1a/92/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/VehicleAssemblyLine/.indexes/e4/b9/22/e4/37/1a/cc/c9/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/VehicleAssemblyLine/.indexes/e4/b9/22/e4/37/1a/cc/f/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/VehicleAssemblyLine/.indexes/e4/b9/22/e4/37/1a/f6/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/server-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/com.genuitec.eclipse.aeri.server1/server-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1028420908.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1078194832.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1085796001.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1510137023.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1762489263.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2247404230.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2422426042.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2475401368.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2521783677.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3125979650.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3208752909.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3554032198.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/366956345.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3919325409.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/4137163996.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/4194509408.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/589541979.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/806556397.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/914924236.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.aop.core/.state" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springframework.ide.eclipse.aop.core/.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.dashboard.ui/feeds/dashboard.feeds.blogs/-549550714.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.dashboard.ui/feeds/dashboard.feeds.blogs/-549550714.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.dashboard.ui/feeds/dashboard.feeds.update/623127801.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.springsource.ide.eclipse.dashboard.ui/feeds/dashboard.feeds.update/623127801.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/write.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/src/Loop.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/src/Loop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/commands/CreateVehicleCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/commands/DisassembleCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/commands/FindCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/commands/ICommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/commands/PrintCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/commands/UpdateCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/factory/AssemblyMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/factory/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/factory/Greeter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/factory/IPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/factory/VINCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/factory/VehicleBrochure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/interpreter/Interpreter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/engine_parameters_parsers/EngineParametersParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/engine_parameters_parsers/HorsePowerParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/engine_parameters_parsers/LiterParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/engine_parsers/DieselEngineParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/engine_parsers/ElectricEngineParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/engine_parsers/EngineParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/engine_parsers/PetrolEngineParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/transmission_parsers/AutomaticTransmissionParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/transmission_parsers/ManualTransmissionParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/transmission_parsers/TransmissionParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/vehicle_parsers/CarParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/vehicle_parsers/SUVParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/parsers/vehicle_parsers/VehicleParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/validators/BodyConfigurationValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/validators/CountryValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/validators/CreateVehicleCommandValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/validators/EngineValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/validators/FactoryNumberValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/validators/IValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/validators/ModelValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/validators/OptionalEngineParametersValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/validators/TransmissionValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/validators/VINValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/validators/VehicleTypeValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_components/engine/DieselEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_components/engine/ElectricEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_components/engine/EngineSpecifications.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_components/engine/IEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_components/engine/PetrolEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_components/engine/parameters/EngineLiter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_components/engine/parameters/HorsePower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_components/engine/parameters/IEngineMainCharacteristic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_components/transmission/AutomaticTransmission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_components/transmission/ITransmission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_components/transmission/ManualTransmission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_types/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_types/IVehicleType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/main/java/org/talentboost/assembly/vehicle_types/SUV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/commands/tests/CreateVehicleCommandShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/factory/tests/VINCreatorShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/factory/tests/VehicleBrochureShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/validators/tests/BodyConfigurationValidatorShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/validators/tests/CountryValidatorShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/validators/tests/CreateVehicleCommandValidatorShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/validators/tests/EngineValidatorShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/validators/tests/FactoryNumberValidatorShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/validators/tests/ModelValidatorShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/validators/tests/OptionalEngineParametersValidatorShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/validators/tests/TransmissionValidatorShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/validators/tests/VehicleTypeValidatorShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/vehicle/tests/VehicleShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/vehicle_components/engine/parameters/tests/EngineLiterShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/vehicle_components/engine/parameters/tests/HorsePowerShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/vehicle_components/engine/tests/DieselEngineShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/vehicle_components/engine/tests/ElectricEngineShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/vehicle_components/engine/tests/PetrolEngineShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/vehicle_components/transmission/tests/AutomationTransmissionShould.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VehicleAssemblyLine/src/test/java/org/talentboost/assembly/vehicle_components/transmission/tests/ManualTransmissionShould.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HorsePower.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PotochnaLiniq/src/main/java/org/talentboost/assembly/vehicle_components/engine/parameters/HorsePower.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="parsers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="parsers" type="462c0819:PsiDirectoryNode" />
+              <item name="engine_parameters_parsers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="parsers" type="462c0819:PsiDirectoryNode" />
+              <item name="engine_parsers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="parsers" type="462c0819:PsiDirectoryNode" />
+              <item name="transmission_parsers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="parsers" type="462c0819:PsiDirectoryNode" />
+              <item name="vehicle_parsers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="validators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="vehicle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="vehicle_components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="vehicle_components" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="vehicle_components" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="parameters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="vehicle_components" type="462c0819:PsiDirectoryNode" />
+              <item name="transmission" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Project" type="462c0819:PsiDirectoryNode" />
+              <item name="PotochnaLiniq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="talentboost" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+              <item name="vehicle_types" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="AssemblyLine" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="AssemblyMain" />
+      <module name="Final Project" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31091978-880e-446a-906c-9f2097671955" name="Default" comment="" />
+      <created>1527870176429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527870176429</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PotochnaLiniq/src/main/java/org/talentboost/assembly/vehicle_components/engine/parameters/HorsePower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PotochnaLiniq/src/main/java/org/talentboost/assembly/vehicle_components/engine/parameters/HorsePower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PotochnaLiniq/src/main/java/org/talentboost/assembly/factory/AssemblyMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/AssemblyMain.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/AssemblyMain.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PotochnaLiniq/src/main/java/org/talentboost/assembly/factory/AssemblyMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PotochnaLiniq/src/main/java/org/talentboost/assembly/validators/EngineValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PotochnaLiniq/src/main/java/org/talentboost/assembly/validators/FactoryNumberValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PotochnaLiniq/src/main/java/org/talentboost/assembly/validators/ModelValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PotochnaLiniq/src/main/java/org/talentboost/assembly/validators/OptionalEngineParametersValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1518" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PotochnaLiniq/src/main/java/org/talentboost/assembly/vehicle/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1509" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PotochnaLiniq/src/main/java/org/talentboost/assembly/vehicle_components/engine/parameters/HorsePower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
